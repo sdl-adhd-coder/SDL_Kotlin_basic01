@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
+//이 아이디를 꼭 추가해주어야 한다. id 'kotlin-android-extensions'-> sync now
 }
 
 android {
